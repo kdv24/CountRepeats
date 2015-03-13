@@ -1,0 +1,42 @@
+A user will input a word and a string of words, and this app will search for the given word within the string provided.  It will only return a match if it finds the full word.
+
+1. If a user inputs a single letter word and the identical string, the computer will display "found"
+Inputs: 
+	a. word- "a" 
+	b. string- "a"
+Output: "match"
+
+2. If a user inputs a single letter word and a different string, the computer will display "not found"
+Inputs: 
+	a. word- "a"
+	b. string- "b"
+Output: "not found"	
+
+3. If a user inputs a multiple letter word and the identical string, the computer will display "found"
+Inputs: 
+	a. word- "am"
+	b. string- "am"
+Output: "match"	
+
+4. If a user inputs a multiple letter word and a different single word string, the computer will display "not found"
+Inputs: 
+	a. word- "am" 
+	b. string- "be"
+Output: "not found"
+
+5. If a user inputs a word and a two word string containing the word, the computer will display "found"
+Inputs: 
+	a. word- "I am"
+	b. string- "I am happy"
+Output: "match"	
+
+6. If a user inputs a word and a two word string that doesn't contain the word, the computer will display "not found"
+Inputs: 
+	a. word- "I am"
+	b. string- "I am grouchy."
+Output: "not found"	
+
+
+
+
+
