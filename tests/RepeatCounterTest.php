@@ -87,6 +87,20 @@
             //Assert
             $this->assertEquals("not found", $result);
         }          
+
+        function test_add_count_if_match()
+        {
+            //Arrange
+            $test_word_in_string_match = new RepeatCounter;
+            $wordInput = "happy";
+            $stringInput = "I am happy";
+
+            //Act
+            $result = $test_word_in_string_match->countRepeats($wordInput, $stringInput);
+
+            //Assert
+            $this->assertEquals("match: 0", $result);
+        }          
     }
 
 ?>
