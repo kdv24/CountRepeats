@@ -6,16 +6,18 @@
         {	
         	$output = "";
         	$count = 0;
+        	$string_array = array();
         	$string_array = explode(" ", $stringInput);
-        	
-            if(in_array($wordInput, $string_array)){
-            	$count = $count + 1;
-            	$output = "match: ";
-            }
-            else {
-            	$output = "not found";
-            	$count = "";
-            }
+        	foreach ($string_array as $word){
+	            if($word == $wordInput){
+	            	$count = $count + 1;
+	            	$output = "match: ";
+	            }
+	            else {
+	            	
+	            	$count = $count + 0;
+	            }
+	        } 
             return $output . $count;
         }
 

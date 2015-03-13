@@ -29,7 +29,7 @@
             $result = $test_single_letter_no_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("not found", $result);
+            $this->assertEquals(0, $result);
         }
                 
         function test_multi_letter_match()
@@ -57,7 +57,7 @@
             $result = $test_multi_letter_no_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("not found", $result);
+            $this->assertEquals(0, $result);
         }
 
         function test_word_in_string_match()
@@ -85,7 +85,7 @@
             $result = $test_word_in_string_no_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("not found", $result);
+            $this->assertEquals(0, $result);
         }          
 
         function test_add_count_if_match()
