@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: #CD5C5C;
+    background-color: #6C94CD;
 
 }
 
@@ -10,9 +10,12 @@ body {
 .jumbotron {
     height: 350px;
     text-align: center;
-    background-image: url(http://uptownmagazine.com/files/2014/08/scrabble.jpg);
+    background-image: 'img/numbers_and_letters.jpg';
+    background-image: url(http://www.freeimageslive.com/galleries/workplace/education/pics/numbers_and_letters.jpg);
     background-size: 100% 100%;
     color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 48px;
 
 }
 
@@ -27,6 +30,7 @@ body {
     padding-left:  100px;
     margin: auto;
     margin-bottom: 25px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h3 {
