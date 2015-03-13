@@ -11,7 +11,7 @@
     ));
 
     $app->get('/', function() use ($app) {
-        return $app['twig']->render('template.twig');
+        return $app['twig']->render('form.twig');
     });
 
     return $app;
