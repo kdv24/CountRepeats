@@ -24,13 +24,13 @@ Inputs:
 	b. string- "be"
 Output: "not found"
 
-5. If a user inputs a word and a two word string containing the word, the computer will display "found"
+X	5. If a user inputs a word and a two word string containing the word, the computer will display "found"
 Inputs: 
 	a. word- "happy"
 	b. string- "I am happy"
 Output: "match"	
 
-6. If a user inputs a word and a two word string that doesn't contain the word, the computer will display "not found"
+X	6. If a user inputs a word and a two word string that doesn't contain the word, the computer will display "not found"
 Inputs: 
 	a. word- "happy"
 	b. string- "I am grouchy."

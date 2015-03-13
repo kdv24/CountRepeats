@@ -15,7 +15,7 @@
             $result = $test_single_letter_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("match", $result);
+            $this->assertEquals("match: 1", $result);
         }
 
         function test_single_letter_no_match()
@@ -43,7 +43,7 @@
             $result = $test_multi_letter_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("match", $result);
+            $this->assertEquals("match: 1", $result);
         }
 
         function test_multi_letter_no_match()
@@ -71,7 +71,7 @@
             $result = $test_word_in_string_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("match", $result);
+            $this->assertEquals("match: 1", $result);
         }        
 
         function test_word_in_string_no_match()
@@ -99,7 +99,7 @@
             $result = $test_word_in_string_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("match: 0", $result);
+            $this->assertEquals("match: 1", $result);
         }          
     }
 
