@@ -65,14 +65,28 @@
             //Arrange
             $test_word_in_string_match = new RepeatCounter;
             $wordInput = "happy";
-            $stringInput = "I am grouchy";
+            $stringInput = "I am happy";
 
             //Act
             $result = $test_word_in_string_match->countRepeats($wordInput, $stringInput);
 
             //Assert
-            $this->assertEquals("not found", $result);
+            $this->assertEquals("match", $result);
         }        
+
+        function test_word_in_string_no_match()
+        {
+            //Arrange
+            $test_word_in_string_no_match = new RepeatCounter;
+            $wordInput = "happy";
+            $stringInput = "I am grouchy";
+
+            //Act
+            $result = $test_word_in_string_no_match->countRepeats($wordInput, $stringInput);
+
+            //Assert
+            $this->assertEquals("not found", $result);
+        }          
     }
 
 ?>
