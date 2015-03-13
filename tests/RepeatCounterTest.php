@@ -100,7 +100,21 @@
 
             //Assert
             $this->assertEquals("match: 1", $result);
-        }          
+        }  
+
+        function test_add_to_count_if_multiple_matches()
+        {
+            //Arrange
+            $test_word_in_string_match = new RepeatCounter;
+            $wordInput = "a";
+            $stringInput = "This is a boring sentence from a brain staring at a wall.";
+
+            //Act
+            $result = $test_word_in_string_match->countRepeats($wordInput, $stringInput);
+
+            //Assert
+            $this->assertEquals("match: 3", $result);
+        }                    
     }
 
 ?>

@@ -36,17 +36,23 @@ Inputs:
 	b. string- "I am grouchy."
 Output: "not found"
 
-7. For each match found, the computer will also display a count.
+X	7. For one match found, the computer will display a count.
 Inputs:
 	a. word-  "daisy"
 	b. string- "daisy"
 Output: "1 match"	
 
-8.  If there is not match, the computer will not display a count.
+X	8.  If there is not match, the computer will not display a count.
 Inputs:
 	a. word- "daisy"
 	b. string- "toad"
 Output: "not found"	
+
+9.  If there are multiple matches, the computer will correctly display the number of matches.
+Inputs:
+	a. word- "a"
+	b. string- "This is a boring sentence from a brain staring at a wall."
+Output: "match: 3"	
 
 
 
