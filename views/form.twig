@@ -9,7 +9,23 @@
             <div class="jumbotron">
                 <h1>Word Finder</h1>
             </div>
-            <p>Hi. I'm a <strong>boilerplate</strong>. Use me to make something awesome, <em>faster</em>.</p>
+            <body>
+    <div class="container">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"><h2><span class="text-warning">Let's play!</span></h2></div>
+        <div class="col-md-4"></div>
+
+        <form action="/result" method="post" class="form-inline">
+            <div class="form-group">
+                <label for="sentence-entered">Please enter a sentence:</input>
+                <input id="sentence-entered" name="sentence-entered" class="form-control" type="text" placeholder="enter sentence here" autofocus="autofocus">            
+                <label for="word-entered">Please enter the word you'd like to search for in your sentence:</input>
+                <input id="word-entered" name="word-entered" class="form-control" type="text" placeholder="enter word here">
+                <button type='submit' class='btn btn-success'>Go</button>
+            </div>
+        </form>
+    </div>
+</body>
         </div>
     </body>
 </html>

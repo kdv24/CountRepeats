@@ -14,6 +14,12 @@
         return $app['twig']->render('form.twig');
     });
 
+    $app->post('/result', function() use ($app) {
+        $input_array = new RepeatCounter;
+        $new_input_array = $input_array->countRepeats($_POST['word-entered'], $_POST['sentence_entered']);
+        return $app['twig']->render('result.twig', array(input_array => $new_input_array)); 
+    });
+
     return $app;
 
 ?>
