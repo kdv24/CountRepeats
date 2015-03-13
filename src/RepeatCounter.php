@@ -2,9 +2,13 @@
 
     class RepeatCounter
     {
-        function countRepeats()
+        function countRepeats($wordInput, $stringInput)
         {
-            
+        	$output = "";
+            if($wordInput == $stringInput){
+            	$output = "match";
+            }
+            return $output;
         }
     }
 
