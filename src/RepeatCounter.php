@@ -18,7 +18,7 @@
 	            	$count = $count + 0;
 	            }
 	        } 
-            return $output . $count;
+            return $count;
         }
 
 
