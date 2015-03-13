@@ -8,6 +8,9 @@
             if($wordInput == $stringInput){
             	$output = "match";
             }
+            else {
+            	$output = "not found";
+            }
             return $output;
         }
     }

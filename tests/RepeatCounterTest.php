@@ -4,18 +4,31 @@
 
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
-        function test_countRepeats()
+        function test_single_letter_match()
         {
             //Arrange
-            $test_countRepeats = new RepeatCounter;
+            $test_single_letter_match = new RepeatCounter;
             $wordInput = "a";
             $stringInput = "a";
 
             //Act
-            $result = $test_countRepeats->countRepeats($wordInput, $stringInput);
+            $result = $test_single_letter_match->countRepeats($wordInput, $stringInput);
 
             //Assert
             $this->assertEquals("match", $result);
+        }
+        function test_single_letter_no_match()
+        {
+            //Arrange
+            $test_single_letter_no_match = new RepeatCounter;
+            $wordInput = "a";
+            $stringInput = "b";
+
+            //Act
+            $result = $test_single_letter_no_match->countRepeats($wordInput, $stringInput);
+
+            //Assert
+            $this->assertEquals("not found", $result);
         }
     }
 
