@@ -1,4 +1,4 @@
-A user will input a word and a string of words, and this app will search for the given word within the string provided.  It will only return a match if it finds the full word.
+A user will input a word and a string of words, and this app will search for the given word within the string provided.  It will only return a match if it finds the full word.  If a match is found, it will return the number of matches (e.g., "Number of matches: 3"); otherwise it will just say "not found."
 
 1. If a user inputs a single letter word and the identical string, the computer will display "found"
 Inputs: 
@@ -34,6 +34,18 @@ Output: "match"
 Inputs: 
 	a. word- "I am"
 	b. string- "I am grouchy."
+Output: "not found"
+
+7. For each match found, the computer will also display a count.
+Inputs:
+	a. word-  "daisy"
+	b. string- "daisy"
+Output: "1 match"	
+
+8.  If there is not match, the computer will not display a count.
+Inputs:
+	a. word- "daisy"
+	b. string- "toad"
 Output: "not found"	
 
 
