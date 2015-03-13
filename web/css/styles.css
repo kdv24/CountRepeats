@@ -4,9 +4,19 @@ body {
 
 }
 
+form {
+    margin: 5%;
+    margin-top: 10%;
+}
 
+label {
+    text-align: left;
+}
 
-
+.form-control {
+    height: 64px;
+    line-height: 2.0
+}
 .jumbotron {
     height: 350px;
     text-align: center;
@@ -15,10 +25,15 @@ body {
     background-size: 100% 100%;
     color: white;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 48px;
+
 
 }
 
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 72px;
+    margin-bottom: 10%;
+}
 
 
 .round {
@@ -39,9 +54,21 @@ h3 {
     padding-right: 109px;
     font-size:  75px;
     color: white;
+    text-shadow: 1px 1px 2px black;  
+}
+
+button {
+    padding-left: 40%;
 }
 
 .add-yellow {
     color: #FFF949;
     text-shadow: 1px 1px 2px #888888;
 }
+
+
+.jumbotron .h1, .jumbotron h1 {
+  font-size: 100px;
+  text-shadow: 1px 1px 5px black;  
+}
+
