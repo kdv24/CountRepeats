@@ -5,7 +5,8 @@
         function countRepeats($wordInput, $stringInput)
         {
         	$output = "";
-            if($wordInput == $stringInput){
+        	$string_array = explode(" ", $stringInput);
+            if(in_array($wordInput, $string_array)){
             	$output = "match";
             }
             else {
