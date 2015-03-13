@@ -4,19 +4,7 @@ body {
 
 }
 
-form {
-    margin: 5%;
-    margin-top: 10%;
-}
 
-label {
-    text-align: left;
-}
-
-.form-control {
-    height: 64px;
-    line-height: 2.0
-}
 .jumbotron {
     height: 350px;
     text-align: center;
@@ -58,7 +46,7 @@ h3 {
 }
 
 button {
-    padding-left: 40%;
+    margin-top: 5%;
 }
 
 .add-yellow {
